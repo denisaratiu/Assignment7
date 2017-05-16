@@ -15,14 +15,18 @@ public class A7Q3 {
     /**
      * @param args the command line arguments
      */
-    public static String factors(int number) {
-         
-        for (int i = 0; i < number; i++) {
-            if (number % i != 0){
-               System.out.format(" %d  ", i);
+    public static void factors(int number) {
+       // create two integers
+       int i = 1;
+       int realNumber = number;
+       //find factors of the number including one and itself
+       while (i <= realNumber) {
+            if (number % i == 0){
+               // print out the factors
+               System.out.println(i);
             }
+            i++;
         }
-        return number
     }
     public static void main(String[] args){
         // scanner input to get user input
@@ -32,7 +36,8 @@ public class A7Q3 {
         int number = input.nextInt();
         
         //output the answer
-        double ans = factors(number);
-        System.out.println("The factors for that number are: ");
+        System.out.println("The factors for the entered value are: ");
+        factors(number);
+        
     }
 }
