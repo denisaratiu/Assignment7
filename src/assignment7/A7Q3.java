@@ -32,7 +32,7 @@ public class A7Q3 {
     public static void main(String[] args) {
         // scanner input to get user input
         Scanner input = new Scanner(System.in);
-        // ask user to input the mark of the exam in percentage form
+        // ask user to input a number to find the factors
         System.out.println("Please enter a number below: ");
         int number = input.nextInt();
 

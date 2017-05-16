@@ -18,6 +18,7 @@ public class A7Q5 {
     public static int chaotic(int randNum) {
         // form the calculation to determine random pattern
         randNum = (int) (Math.random() * (5 - 1 + 1)) + 1;
+        randNum =  '*';
         return randNum;
         
     }
