@@ -4,6 +4,8 @@
  */
 package assignment7;
 
+import java.util.Scanner;
+
 /**
  *
  * @author ratid6445
@@ -13,13 +15,11 @@ public class A7Q6 {
     /**
      * @param args the command line arguments
      */
-    public static int lastDigit(double number) {
-        //
-        for (double i = 0; i > number; i++) {
-            number[] = number[i];
+    public static int lastDigit(int number) {
+        //find the last digit in the number
+        int last= number%10;
+        System.out.println(last);  
         }
-        return number;
-    }
 
     public static void main(String[] args) {
         // scanner input to get user input
@@ -29,7 +29,7 @@ public class A7Q6 {
         int number = input.nextInt();
 
         //output the answer 
-        double ans = lastDigit(number);
         System.out.println("The last digit in that number is: ");
+        lastDigit(number);
     }
 }
