@@ -38,7 +38,7 @@ public class A7Q4 {
 
         //output the final balane of the account
         double ans = compoundInterest(initialAmount, interestRate, years);
-        ans = Math.round(ans*100)/100.0;
+        ans = Math.round(ans * 100) / 100.0;
         System.out.println("The new balance of the account is $" + ans);
     }
 }
