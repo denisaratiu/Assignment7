@@ -13,7 +13,16 @@ public class A7Q5 {
     /**
      * @param args the command line arguments
      */
+    public static int chaotic(int randNum) {
+
+        randNum = (int) (Math.random() * (5 - 1 + 1)) + 1;
+
+    }
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        //Scanner ipnut to get user input
+        Scanner input = new Scanner 
+    
+    
     }
 }
