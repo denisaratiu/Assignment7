@@ -15,8 +15,8 @@ public class A7Q6 {
     /**
      * @param args the command line arguments
      */
-    public static int lastDigit(int number) {
-        //find the last digit in the number
+    public static void lastDigit(int number) {
+        //find the last digit in the 
         int last= number%10;
         System.out.println(last);  
         }
