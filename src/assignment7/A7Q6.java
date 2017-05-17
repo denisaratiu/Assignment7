@@ -17,12 +17,12 @@ public class A7Q6 {
      */
     public static void lastDigit(int number) {
         //find the last digit in the 
-        int last= number%10;
-        if(last<0){
+        int last = number % 10;
+        if (last < 0) {
             last = last * -1;
         }
         System.out.println(last);
-        }
+    }
 
     public static void main(String[] args) {
         // scanner input to get user input
