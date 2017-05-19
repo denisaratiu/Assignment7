@@ -19,19 +19,32 @@ public class A7Q9 {
         boolean oddNumber;
         if (String.valueOf(number).contains("1")) {
             oddNumber = true;
-        }
+        } 
         if (String.valueOf(number).contains("3")) {
             oddNumber = true;
-        }
+        } 
         if (String.valueOf(number).contains("5")) {
             oddNumber = true;
-        }
+        } 
         if (String.valueOf(number).contains("7")) {
             oddNumber = true;
-        }
+        } 
         if (String.valueOf(number).contains("9")) {
             oddNumber = true;
-        } else {
+        } 
+        if (String.valueOf(number).contains("2")) {
+            oddNumber = false;
+        } 
+        if (String.valueOf(number).contains("4")) {
+            oddNumber = false;
+        } 
+        if (String.valueOf(number).contains("6")) {
+            oddNumber = false;
+        } 
+        if (String.valueOf(number).contains("8")) {
+            oddNumber = false;
+        } 
+        if (String.valueOf(number).contains("0")) {
             oddNumber = false;
         }
         return oddNumber;
