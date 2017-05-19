@@ -20,14 +20,14 @@ public class A7Q7 {
         if (number < 0) {
             number = number * -1;
         }
-        
+
         //find the first digit in the number
-        while(number >= 10){
-             number = number / 10;
+        while (number >= 10) {
+            number = number / 10;
         }
         return number;
     }
-    
+
     public static void main(String[] args) {
         // scanner input to get user input
         Scanner input = new Scanner(System.in);
@@ -38,7 +38,7 @@ public class A7Q7 {
         //output the first digit
         System.out.println("The first digit in that number is: ");
         int answer = firstDigit(number);
-        
+
         System.out.println(answer);
     }
 }
