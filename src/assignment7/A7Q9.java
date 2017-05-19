@@ -16,7 +16,8 @@ public class A7Q9 {
      * @param args the command line arguments
      */
     public static boolean allOddDigits(int number) {
-        boolean oddNumber;
+        boolean oddNumber = true;
+        
         if (String.valueOf(number).contains("1")) {
             oddNumber = true;
         } 
