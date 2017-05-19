@@ -17,19 +17,23 @@ public class A7Q9 {
      */
     public static boolean allOddDigits(int number) {
         boolean oddNumber;
-        if (String.valueOf(number).contains("1")){
+        if (String.valueOf(number).contains("1")) {
             oddNumber = true;
-    }if (String.valueOf(number).contains("3")){
+        }
+        if (String.valueOf(number).contains("3")) {
             oddNumber = true;
-    }if (String.valueOf(number).contains("5")){
+        }
+        if (String.valueOf(number).contains("5")) {
             oddNumber = true;
-    }if (String.valueOf(number).contains("7")){
+        }
+        if (String.valueOf(number).contains("7")) {
             oddNumber = true;
-    }if (String.valueOf(number).contains("9")){
+        }
+        if (String.valueOf(number).contains("9")) {
             oddNumber = true;
-    }else {
-        oddNumber = false;
-    }
+        } else {
+            oddNumber = false;
+        }
         return oddNumber;
     }
 
