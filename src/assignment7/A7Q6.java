@@ -18,6 +18,8 @@ public class A7Q6 {
     public static void lastDigit(int number) {
         //find the last digit in the number
         int last = number % 10;
+        
+        //turn negative number to a positive number
         if (last < 0) {
             last = last * -1;
         }
