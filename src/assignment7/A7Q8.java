@@ -17,11 +17,11 @@ public class A7Q8 {
      */
     public static void season(int month, int day) {
         // Fall - start at September 16 and go until December 15
-        if((month == 9 && day >= 16)|| month == 10 || month == 11 
-                || (month == 12 && day <=15)) {
+        if ((month == 9 && day >= 16) || month == 10 || month == 11
+                || (month == 12 && day <= 15)) {
             String realSeason = "Fall";
             System.out.println(realSeason);
-            
+
             // Spring
         } else if ((month == 3 && day >= 16) || month == 4 || month == 5
                 || (month == 6 && day <= 15)) {
@@ -52,7 +52,7 @@ public class A7Q8 {
 
         //output the season
         System.out.println("The season for that date is: ");
-        season(month,day);
-       
+        season(month, day);
+
     }
 }
