@@ -59,7 +59,7 @@ public class A7Q9 {
         int number = input.nextInt();
 
         //output true or false whether all the digits are odd
-        System.out.println("True or false: Are all the numbers odd?");
+        System.out.println("True or false: All the numbers odd?");
         System.out.println(allOddDigits(number));
     }
 }
