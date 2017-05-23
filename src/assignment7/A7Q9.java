@@ -17,34 +17,34 @@ public class A7Q9 {
      */
     public static boolean allOddDigits(int number) {
         boolean oddNumber = true;
-        
+
         if (String.valueOf(number).contains("1")) {
             oddNumber = true;
-        } 
+        }
         if (String.valueOf(number).contains("3")) {
             oddNumber = true;
-        } 
+        }
         if (String.valueOf(number).contains("5")) {
             oddNumber = true;
-        } 
+        }
         if (String.valueOf(number).contains("7")) {
             oddNumber = true;
-        } 
+        }
         if (String.valueOf(number).contains("9")) {
             oddNumber = true;
-        } 
+        }
         if (String.valueOf(number).contains("2")) {
             oddNumber = false;
-        } 
+        }
         if (String.valueOf(number).contains("4")) {
             oddNumber = false;
-        } 
+        }
         if (String.valueOf(number).contains("6")) {
             oddNumber = false;
-        } 
+        }
         if (String.valueOf(number).contains("8")) {
             oddNumber = false;
-        } 
+        }
         if (String.valueOf(number).contains("0")) {
             oddNumber = false;
         }
@@ -59,6 +59,7 @@ public class A7Q9 {
         int number = input.nextInt();
 
         //output true or false whether all the digits are odd
+        System.out.println("True or false: Are all the numbers odd?");
         System.out.println(allOddDigits(number));
     }
 }
