@@ -16,18 +16,21 @@ public class A7Q8 {
      * @param args the command line arguments
      */
     public static void season(int month, int day) {
-        // fall season
-        if (month >= 9 && month <= 12 && day == 16 || day == 15) {
-            String realSeason = "fall";
+        // Fall - start at September 16 and go until December 15
+        if((month == 9 && day >= 16)|| month == 10 || month == 11 
+                || (month == 12 && day <=15)) {
+            String realSeason = "Fall";
             System.out.println(realSeason);
-
+            
             // Spring
-        } else if (month >= 4 && month <= 6 && day == 16 || day == 15) {
+        } else if ((month == 3 && day >= 16) || month == 4 || month == 5
+                || (month == 6 && day <= 15)) {
             String realSeason = "Spring";
             System.out.println(realSeason);
 
             // Winter
-        } else if (month >= 12 && month <= 3 && day == 16 || day == 15) {
+        } else if ((month == 12 && day >= 16) || month == 1 || month == 2
+                || (month == 3 && day <= 15)) {
             String realSeason = "Winter";
             System.out.println(realSeason);
 
@@ -49,7 +52,7 @@ public class A7Q8 {
 
         //output the season
         System.out.println("The season for that date is: ");
-        String answer = season(month && day);
-        System.out.println(answer);
+        season(month,day);
+       
     }
 }
